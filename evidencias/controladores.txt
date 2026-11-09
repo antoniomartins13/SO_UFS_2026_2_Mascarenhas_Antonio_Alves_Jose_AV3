@@ -1,0 +1,16 @@
+# Imagem: python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+# Flags: --cpus 0.5 --memory 256m --memory-swap 256m --pids-limit 64
+=== /proc/self/cgroup ===
+0::/
+=== cgroup.controllers ===
+cpuset cpu io memory hugetlb pids rdma misc dmem
+=== cpu.max ===
+50000 100000
+=== memory.max ===
+268435456
+=== memory.swap.max ===
+0
+=== pids.max ===
+64
+=== kernel visto no conteiner ===
+Linux 7.0.0-43-generic x86_64

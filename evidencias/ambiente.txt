@@ -1,0 +1,73 @@
+=== DATA ===
+2026-11-09T20:26:09-03:00
+=== KERNEL (uname -srvmo; hostname omitido) ===
+Linux 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
+=== DISTRIBUICAO ===
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+=== VIRTUALIZACAO (systemd-detect-virt; "none" = Linux nativo) ===
+none
+=== CPU ===
+nproc=8
+Architecture:                            x86_64
+CPU(s):                                  8
+Model name:                              11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      4
+Socket(s):                               1
+CPU(s) scaling MHz:                      80%
+Virtualization:                          VT-x
+=== MEMORIA ===
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       7.5Gi       3.3Gi       1.1Gi       6.1Gi       7.9Gi
+Swap:          8.0Gi       693Mi       7.3Gi
+=== DOCKER ===
+Client: Docker Engine - Community
+ Version:           29.9.3
+ API version:       1.56
+ Go version:        go1.26.10
+ Git commit:        5457199
+ Built:             Tue Nov  3 21:42:07 2026
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          29.9.3
+  API version:      1.56 (minimum version 1.40)
+  Go version:       go1.26.10
+  Git commit:       70efc0e
+  Built:            Tue Nov  3 21:42:07 2026
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.4.2
+  GitCommit:        b7a25261e029d68978bbf290df0a62fc819b3c51
+ runc:
+  Version:          1.5.2
+  GitCommit:        v1.5.2-0-g29dd3dc2
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+Docker Compose version v5.7.0
+Cgroup=2 Driver=systemd
+OperatingSystem=Ubuntu 26.04.1 LTS KernelVersion=7.0.0-43-generic NCPU=8 MemTotal=16537444352
+SecurityOptions=[name=apparmor,profile=default name=seccomp,profile=builtin name=cgroupns]
+NAME        DESCRIPTION                               DOCKER ENDPOINT               ERROR
+default *   Current DOCKER_HOST based configuration   unix:///var/run/docker.sock   
+=== CGROUP NO HOST ===
+tipo_fs=cgroup2fs   (cgroup2fs = cgroup v2 unificado)
+controladores_raiz=cpuset cpu io memory hugetlb pids rdma misc dmem
+subtree_control_raiz=cpuset cpu io memory hugetlb pids rdma misc dmem
+cgroup_do_terminal=0::/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.konsole-7734.scope/tab(7749).scope
