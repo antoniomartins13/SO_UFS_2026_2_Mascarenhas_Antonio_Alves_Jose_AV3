@@ -20,7 +20,7 @@ Entrega: 10/11/2026 · Apresentação: 11/11/2026
 | 2 | _a definir_ | Testes de cgroups com carga de CPU, montagem read-only e logs brutos (Partes C e D) |
 | 3 | _a definir_ | Tabela comparativa de handles e explicação do PID 1 |
 | 4 | _a definir_ | Processamento dos logs de cgroups, trabalho/s e gráfico comparativo |
-| 5 | _a definir_ | Análise do teste de montagem; teoria de kernel compartilhado, throttling e segurança em inferência |
+| 5 | José Gustavo Abreu Alves | Análise do teste de montagem; teoria de kernel compartilhado, throttling e segurança em inferência |
 | 6 | _a definir_ | Relatório PDF, README e declaração de uso de IA |
 | 7 | _a definir_ | Vídeo da equipe e slides |
 
