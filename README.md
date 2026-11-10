@@ -38,7 +38,7 @@ Anderson Soares de Santana Júnior, João Felipe Tunes Oliveira.
 |---|---|---|
 | Ambiente, cgroup v2 e digest da imagem (Parte A) | [`evidencias/ambiente.txt`](evidencias/ambiente.txt), [`evidencias/controladores.txt`](evidencias/controladores.txt), [`evidencias/imagem_digest.txt`](evidencias/imagem_digest.txt) | ✅ |
 | Diagrama de camadas | [`diagrama/infraestrutura.png`](diagrama/infraestrutura.png) (fonte `.svg`) | ✅ |
-| Namespaces PID/mnt/net em dois contêineres (Parte B) | [`evidencias/namespaces.txt`](evidencias/namespaces.txt), [`docs/partes_A_B.md`](docs/partes_A_B.md) | ✅ coleta · ⏳ tabela final (Integrante 3) |
+| Namespaces PID/mnt/net em dois contêineres (Parte B) | [`evidencias/namespaces.txt`](evidencias/namespaces.txt) (coleta 1 preservada em `namespaces_coleta1.txt`), [`docs/partes_A_B.md`](docs/partes_A_B.md) | ✅ coleta · ⏳ tabela final (Integrante 3) |
 | Seis execuções C1/C2 + piloto (Parte C) | `resultados/` | ⏳ Integrante 2 |
 | CSV e gráfico | `resultados/execucoes.csv`, gráfico | ⏳ Integrante 4 |
 | Teste read-only (Parte D) | `evidencias/` | ⏳ Integrante 2 / 5 |
@@ -78,7 +78,7 @@ bash scripts/coleta_ambiente.sh
 export IMAGEM_LAB="$(cat evidencias/imagem_digest.txt)"
 
 # Parte B: dois contêineres, handles de pid/mnt/net
-bash scripts/coleta_namespaces.sh
+sudo -v && bash scripts/coleta_namespaces.sh   # sudo só para LER /proc de outros processos
 ```
 
 Partes C e D: _a documentar pelo Integrante 2_.

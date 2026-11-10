@@ -20,16 +20,16 @@
   <text x="170" y="140" text-anchor="middle" class="tb">Contêiner A (so3_ns_a)</text>
   <text x="62" y="162" class="s">python:3.12-slim @sha256:5e2bdb1b…</text>
   <text x="62" y="182" class="s">PID 1 interno = sleep 600</text>
-  <text x="62" y="200" class="s">PID no host = 10474</text>
-  <text x="62" y="220" class="s">pid:[4026532569]  mnt:[4026532554]</text>
-  <text x="62" y="238" class="s">net:[4026532571]  (--network none)</text>
+  <text x="62" y="200" class="s">PID no host = 43568</text>
+  <text x="62" y="220" class="s">pid:[4026532577]  mnt:[4026532554]</text>
+  <text x="62" y="238" class="s">net:[4026532579]  (--network none)</text>
   <rect x="310" y="118" width="240" height="145" rx="8" fill="#d6e8ff" stroke="#3b78c4"/>
   <text x="430" y="140" text-anchor="middle" class="tb">Contêiner B (so3_ns_b)</text>
   <text x="322" y="162" class="s">python:3.12-slim @sha256:5e2bdb1b…</text>
   <text x="322" y="182" class="s">PID 1 interno = sleep 600</text>
-  <text x="322" y="200" class="s">PID no host = 10529</text>
-  <text x="322" y="220" class="s">pid:[4026533035]  mnt:[4026533032]</text>
-  <text x="322" y="238" class="s">net:[4026533037]  (--network none)</text>
+  <text x="322" y="200" class="s">PID no host = 43625</text>
+  <text x="322" y="220" class="s">pid:[4026533042]  mnt:[4026533039]</text>
+  <text x="322" y="238" class="s">net:[4026533044]  (--network none)</text>
 
   <!-- runtime -->
   <rect x="30" y="290" width="540" height="70" rx="8" fill="#e8f5e9" stroke="#3a8a43"/>
@@ -90,5 +90,5 @@
   <!-- legenda -->
   <text x="620" y="705" text-anchor="middle" class="t">Contêiner ≠ VM: os contêineres não têm kernel próprio. Fazem syscalls ao kernel da camada laranja do seu ambiente.</text>
   <text x="620" y="728" text-anchor="middle" class="t">Namespaces mudam o que o processo VÊ; cgroups limitam o que ele CONSOME; usuário/capabilities/LSM definem o que ele PODE.</text>
-  <text x="620" y="760" text-anchor="middle" class="note">Dados da esquerda: evidencias/ambiente.txt e namespaces.txt (09/11/2026). Dados da direita: README das Partes C/D (Integrante 2).</text>
+  <text x="620" y="760" text-anchor="middle" class="note">Dados da esquerda: evidencias/ambiente.txt e namespaces.txt (09–10/11/2026). Dados da direita: README das Partes C/D (Integrante 2).</text>
 </svg>

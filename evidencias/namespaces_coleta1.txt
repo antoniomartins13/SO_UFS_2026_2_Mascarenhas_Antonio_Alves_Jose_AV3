@@ -1,0 +1,61 @@
+# Data: 2026-11-09T20:25:58-03:00
+# Imagem: python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+# Flags: --network none --cap-drop ALL --security-opt no-new-privileges ; comando: sleep 600
+bca6b57e74da0e5b58bafd38d4e3187e7a2abc049e829069eed3307942a58341
+cf8095aa29acd52664ddc08d4ef706498a12eb3ee72cdf854232f511c7a13841
+
+=== CONTAINER so3_ns_a (visao de DENTRO do conteiner) ===
+ID=bca6b57e74da0e5b58bafd38d4e3187e7a2abc049e829069eed3307942a58341
+PID_host=10474
+PID1_comm=sleep
+PID1_cmdline=sleep 600 
+pid:[4026532569]
+mnt:[4026532554]
+net:[4026532571]
+--- processos visiveis dentro do conteiner (ps nao existe na imagem slim; lendo /proc) ---
+1 sleep
+39 sh
+--- interfaces de rede vistas no conteiner (/proc/net/dev) ---
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+=== CONTAINER so3_ns_b (visao de DENTRO do conteiner) ===
+ID=cf8095aa29acd52664ddc08d4ef706498a12eb3ee72cdf854232f511c7a13841
+PID_host=10529
+PID1_comm=sleep
+PID1_cmdline=sleep 600 
+pid:[4026533035]
+mnt:[4026533032]
+net:[4026533037]
+--- processos visiveis dentro do conteiner (ps nao existe na imagem slim; lendo /proc) ---
+1 sleep
+39 sh
+--- interfaces de rede vistas no conteiner (/proc/net/dev) ---
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+=== VISAO DO HOST (mesmo kernel; daemon local, sem VM) ===
+--- namespaces do PID 1 do host (systemd) ---
+host_pid=pid:[4026531836]
+host_mnt=mnt:[4026531832]
+host_net=net:[4026531833]
+(se sudo nao estiver disponivel, mostra os namespaces do proprio shell, que sao os do host)
+--- so3_ns_a: PID_host=10474 ---
+    PID    PPID USER     COMMAND         COMMAND
+  10474   10451 root     sleep           sleep 600
+NSpid (PID no host -> PID no namespace do conteiner): NSpid:	10474	1
+host:/proc/10474/ns/pid -> (requer root)
+host:/proc/10474/ns/mnt -> (requer root)
+host:/proc/10474/ns/net -> (requer root)
+--- so3_ns_b: PID_host=10529 ---
+    PID    PPID USER     COMMAND         COMMAND
+  10529   10505 root     sleep           sleep 600
+NSpid (PID no host -> PID no namespace do conteiner): NSpid:	10529	1
+host:/proc/10529/ns/pid -> (requer root)
+host:/proc/10529/ns/mnt -> (requer root)
+host:/proc/10529/ns/net -> (requer root)
+
+=== lsns (namespaces do sistema que contem os processos sleep) ===
+        NS TYPE NPROCS   PID USER       NETNSID NSFS                     COMMAND
