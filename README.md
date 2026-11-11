@@ -22,7 +22,7 @@ Entrega: 10/11/2026 · Apresentação: 11/11/2026
 | 4 | _a definir_ | Processamento dos logs de cgroups, trabalho/s e gráfico comparativo |
 | 5 | José Gustavo Abreu Alves | Análise do teste de montagem; teoria de kernel compartilhado, throttling e segurança em inferência |
 | 6 | _a definir_ | Relatório PDF, README e declaração de uso de IA |
-| 7 | _a definir_ | Vídeo da equipe e slides |
+| 7 | Davi Oliveira Machado | Vídeo da equipe e slides |
 
 Equipe (a mesma das atividades anteriores): Antônio José Martins Mascarenhas, José Gustavo Abreu Alves,
 Davi Oliveira Machado, Antônio Carlos Bispo Cunha, Kaique Teixeira Rodrigues,
@@ -30,7 +30,7 @@ Anderson Soares de Santana Júnior, João Felipe Tunes Oliveira.
 
 ## 2. Vídeo
 
-**URL:** _pendente_. Também deve constar em [`VIDEO.md`](VIDEO.md) e no relatório.
+**URL:** <https://youtu.be/LrUAWQ2_1Oc> Também deve constar em [`VIDEO.md`](VIDEO.md) e no relatório.
 
 ## 3. Status dos entregáveis
 
@@ -44,8 +44,8 @@ Anderson Soares de Santana Júnior, João Felipe Tunes Oliveira.
 | Teste read-only (Parte D) | `evidencias/` | ⏳ Integrante 2 / 5 |
 | Relatório PDF | `docs/relatorio.pdf` | ⏳ Integrante 6 |
 | Declaração de uso de IA | `docs/declaracao-ia.md` | ⏳ Integrante 6 |
-| Slides | `docs/apresentacao.pdf` | ⏳ Integrante 7 |
-| Vídeo | [`VIDEO.md`](VIDEO.md) | ⏳ Integrante 7 |
+| Slides | `docs/apresentacao.pdf` | ✅ |
+| Vídeo | [`VIDEO.md`](VIDEO.md) | ✅ |
 
 ## 4. Ambientes
 

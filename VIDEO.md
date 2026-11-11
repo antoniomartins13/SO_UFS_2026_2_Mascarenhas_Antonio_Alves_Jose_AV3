@@ -1,5 +1,5 @@
 # Vídeo da Atividade 3
 
-**URL:** _pendente (Integrante 7)_
+**URL:** <https://youtu.be/LrUAWQ2_1Oc>
 
 Todos os integrantes devem participar de forma identificável. No Classroom, enviar somente o link.
