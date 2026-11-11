@@ -80,9 +80,6 @@ O script lê `resultados/principal/C*_r*.json` e sobrescreve os quatro arquivos 
 - As medidas de memória (RSS do processo, `memory.current` amostrado e `memory.peak`) são distintas e não devem ser chamadas de "RAM média".
 - O tempo de partida do interpretador e do `medir.py` entra no delta de `usage_usec` do cgroup, mas não no `wall_s` da carga.
 
-### 8. Onde colocar os arquivos no repositório
-
-O repositório atualizado ainda não contém as Partes C e D. Copie para `atividade3/` (ou para a raiz, conforme o README da equipe): `resumo.py` e a pasta `resultados/` com `principal/*.json`, `execucoes.csv`, `resumo.csv`, `resumo.md` e `grafico_c1_c2.png`; e atualize no README a linha da Parte C, que hoje consta como pendente.
 
 ### 9. Contribuição individual e IA
 
