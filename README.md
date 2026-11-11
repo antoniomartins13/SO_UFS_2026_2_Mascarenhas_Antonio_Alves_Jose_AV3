@@ -39,9 +39,9 @@ Anderson Soares de Santana Júnior, João Felipe Tunes Oliveira.
 | Ambiente, cgroup v2 e digest da imagem (Parte A) | [`evidencias/ambiente.txt`](evidencias/ambiente.txt), [`evidencias/controladores.txt`](evidencias/controladores.txt), [`evidencias/imagem_digest.txt`](evidencias/imagem_digest.txt) | ✅ |
 | Diagrama de camadas | [`diagrama/infraestrutura.png`](diagrama/infraestrutura.png) (fonte `.svg`) | ✅ |
 | Namespaces PID/mnt/net em dois contêineres (Parte B) | [`evidencias/namespaces.txt`](evidencias/namespaces.txt) (coleta 1 preservada em `namespaces_coleta1.txt`), [`docs/partes_A_B.md`](docs/partes_A_B.md) | ✅ coleta · ⏳ tabela final (Integrante 3) |
-| Seis execuções C1/C2 + piloto (Parte C) | `resultados/` | ⏳ Integrante 2 |
-| CSV e gráfico | `resultados/execucoes.csv`, gráfico | ⏳ Integrante 4 |
-| Teste read-only (Parte D) | `evidencias/` | ⏳ Integrante 2 / 5 |
+| Seis execuções C1/C2 + piloto (Parte C) | `resultados/` | ✅ |
+| CSV e gráfico | `resultados/execucoes.csv`, gráfico | ✅ |
+| Teste read-only (Parte D) | `evidencias/` |✅ |
 | Relatório PDF | `docs/relatorio.pdf` | ✅ |
 | Slides | `docs/apresentacao.pdf` | ✅ |
 | Vídeo | [`VIDEO.md`](VIDEO.md) | ✅ |
