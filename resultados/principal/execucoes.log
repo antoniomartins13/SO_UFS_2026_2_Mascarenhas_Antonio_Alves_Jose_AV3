@@ -1,0 +1,10 @@
+# inicio=2026-11-09T12:48:33-03:00 modo=principal iteracoes=100000000 repeticoes=3
+# imagem=python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+# host: Linux 6.18.54.1-microsoft-standard-WSL2 nproc=12
+cond=C1 rep=1 iteracoes=100000000 inicio=2026-11-09T12:48:34-03:00 exit=0 oom=false arquivo=resultados/principal/C1_r1.json
+cond=C2 rep=1 iteracoes=100000000 inicio=2026-11-09T12:48:51-03:00 exit=0 oom=false arquivo=resultados/principal/C2_r1.json
+cond=C2 rep=2 iteracoes=100000000 inicio=2026-11-09T12:48:59-03:00 exit=0 oom=false arquivo=resultados/principal/C2_r2.json
+cond=C1 rep=2 iteracoes=100000000 inicio=2026-11-09T12:49:08-03:00 exit=0 oom=false arquivo=resultados/principal/C1_r2.json
+cond=C1 rep=3 iteracoes=100000000 inicio=2026-11-09T12:49:24-03:00 exit=0 oom=false arquivo=resultados/principal/C1_r3.json
+cond=C2 rep=3 iteracoes=100000000 inicio=2026-11-09T12:49:40-03:00 exit=0 oom=false arquivo=resultados/principal/C2_r3.json
+# fim=2026-11-09T12:49:50-03:00

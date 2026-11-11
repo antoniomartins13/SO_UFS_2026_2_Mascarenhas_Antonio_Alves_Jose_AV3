@@ -1,0 +1,113 @@
+{
+  "carga": {
+    "iteracoes": 100000000,
+    "iteracoes_concluidas": 100000000,
+    "checksum": 662921401752443440,
+    "checksum_esperado": 662921401752443440,
+    "correto": true,
+    "status": "ok",
+    "wall_s": 8.607551,
+    "cpu_processo_s": 8.596281,
+    "rss_pico_processo_kb": 15460,
+    "vmrss_final_kb": 14004
+  },
+  "carga_exit_code": 0,
+  "carga_stderr": "",
+  "wall_externo_s": 8.676683,
+  "cgroup_antes": {
+    "arquivos": {
+      "cpu.max": "100000 100000",
+      "cpu.weight": "100",
+      "memory.max": "268435456",
+      "memory.swap.max": "0",
+      "memory.high": "max",
+      "pids.max": "64",
+      "memory.current": "10072064",
+      "memory.peak": "11255808",
+      "pids.current": "1",
+      "pids.peak": "6",
+      "cgroup.controllers": "cpuset cpu io memory hugetlb pids rdma"
+    },
+    "cpu.stat": {
+      "usage_usec": 125553,
+      "user_usec": 102725,
+      "system_usec": 22827,
+      "nice_usec": 0,
+      "nr_periods": 1,
+      "nr_throttled": 0,
+      "throttled_usec": 0,
+      "nr_bursts": 0,
+      "burst_usec": 0
+    },
+    "memory.events": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "pids.events": {
+      "max": 0
+    }
+  },
+  "cgroup_depois": {
+    "arquivos": {
+      "cpu.max": "100000 100000",
+      "cpu.weight": "100",
+      "memory.max": "268435456",
+      "memory.swap.max": "0",
+      "memory.high": "max",
+      "pids.max": "64",
+      "memory.current": "9936896",
+      "memory.peak": "19111936",
+      "pids.current": "1",
+      "pids.peak": "6",
+      "cgroup.controllers": "cpuset cpu io memory hugetlb pids rdma"
+    },
+    "cpu.stat": {
+      "usage_usec": 8804596,
+      "user_usec": 8760693,
+      "system_usec": 43903,
+      "nice_usec": 0,
+      "nr_periods": 88,
+      "nr_throttled": 4,
+      "throttled_usec": 6147,
+      "nr_bursts": 0,
+      "burst_usec": 0
+    },
+    "memory.events": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "pids.events": {
+      "max": 0
+    }
+  },
+  "cpu_stat_delta": {
+    "usage_usec": 8679043,
+    "user_usec": 8657968,
+    "system_usec": 21076,
+    "nice_usec": 0,
+    "nr_periods": 87,
+    "nr_throttled": 4,
+    "throttled_usec": 6147,
+    "nr_bursts": 0,
+    "burst_usec": 0
+  },
+  "memory_current_amostras": {
+    "n": 44,
+    "min_bytes": 10596352,
+    "max_bytes": 18104320,
+    "media_bytes": 17907991,
+    "intervalo_s": 0.2
+  },
+  "identidade": {
+    "uid": 65534,
+    "gid": 65534
+  }
+}

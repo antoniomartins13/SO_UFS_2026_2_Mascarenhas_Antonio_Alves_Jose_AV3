@@ -1,0 +1,3 @@
+# contexto de seguranca do daemon
+SecurityOptions=[name=seccomp,profile=builtin name=cgroupns] Cgroup=2 Rootless=
+uid_host=1000
