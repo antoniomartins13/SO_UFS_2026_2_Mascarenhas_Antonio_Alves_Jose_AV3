@@ -17,11 +17,11 @@ Entrega: 10/11/2026 · Apresentação: 11/11/2026
 | # | Integrante | Contribuição |
 |---|---|---|
 | 1 | Antônio José Martins Mascarenhas | Ambiente Docker, diagrama de infraestrutura, coleta dos namespaces (Partes A e B), criação do repositório |
-| 2 | _a definir_ | Testes de cgroups com carga de CPU, montagem read-only e logs brutos (Partes C e D) |
-| 3 | _a definir_ | Tabela comparativa de handles e explicação do PID 1 |
-| 4 | _a definir_ | Processamento dos logs de cgroups, trabalho/s e gráfico comparativo |
+| 2 | Anderson Soares de Santana Júnior | Testes de cgroups com carga de CPU, montagem read-only e logs brutos (Partes C e D) |
+| 3 | Antônio Carlos Bispo Cunha | Tabela comparativa de handles e explicação do PID 1 |
+| 4 | Kaíque Teixeira Rodrigues | Processamento dos logs de cgroups, trabalho/s e gráfico comparativo |
 | 5 | José Gustavo Abreu Alves | Análise do teste de montagem; teoria de kernel compartilhado, throttling e segurança em inferência |
-| 6 | _a definir_ | Relatório PDF, README e declaração de uso de IA |
+| 6 | João Felipe Tunes Oliveira | Relatório PDF, README e declaração de uso de IA |
 | 7 | Davi Oliveira Machado | Vídeo da equipe e slides |
 
 Equipe (a mesma das atividades anteriores): Antônio José Martins Mascarenhas, José Gustavo Abreu Alves,
@@ -42,8 +42,7 @@ Anderson Soares de Santana Júnior, João Felipe Tunes Oliveira.
 | Seis execuções C1/C2 + piloto (Parte C) | `resultados/` | ⏳ Integrante 2 |
 | CSV e gráfico | `resultados/execucoes.csv`, gráfico | ⏳ Integrante 4 |
 | Teste read-only (Parte D) | `evidencias/` | ⏳ Integrante 2 / 5 |
-| Relatório PDF | `docs/relatorio.pdf` | ⏳ Integrante 6 |
-| Declaração de uso de IA | `docs/declaracao-ia.md` | ⏳ Integrante 6 |
+| Relatório PDF | `docs/relatorio.pdf` | ✅ |
 | Slides | `docs/apresentacao.pdf` | ✅ |
 | Vídeo | [`VIDEO.md`](VIDEO.md) | ✅ |
 
